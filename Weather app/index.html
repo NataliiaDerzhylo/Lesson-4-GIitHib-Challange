@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>Weather</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="location-temp" class="col-4">
+        <button class="location-temp">Current Location Temperature</button>
+      </div>
+      <form class="search-form" id="search-form">
+        <div class="row">
+          <div class="col-9">
+            <input
+              type="search"
+              placeholder="Enter a city"
+              autofocus="on"
+              autocomplete="off"
+              id="city-input"
+              class="form-control"
+            />
+          </div>
+          <div class="col-3">
+            <input type="submit" value="Search" class="btn btn-primary" />
+          </div>
+        </div>
+      </form>
+      <div class="container">
+        <div class="row heading">
+          <div class="col-6">⛅<span class="temperature">19°</span></div>
+          <div class="col-6-city">Lviv</div>
+        </div>
+        <div class="row additional">
+          <div class="col-6">Precipitation: 7%</div>
+          <div class="col-6-day">Saturday 17:49</div>
+        </div>
+        <div class="row extra">
+          <div class="col-6">Wind: 16km/h</div>
+          <div class="col-6">Clouds</div>
+        </div>
+        <br />
+        <div class="row days paddingBetweenCols">
+          <div class="col-2">Sun</div>
+          <div class="col-2">Mon</div>
+          <div class="col-2">Tue</div>
+          <div class="col-2">Wed</div>
+          <div class="col-2">Thu</div>
+        </div>
+        <div class="row degree paddingBetweenCols">
+          <div class="col-2">🌧</div>
+          <div class="col-2">🌧</div>
+          <div class="col-2">🌧</div>
+          <div class="col-2">⛅</div>
+          <div class="col-2">⛅</div>
+        </div>
+        <div class="row degree paddingBetweenCols">
+          <div class="col-2">5&#176;</div>
+          <div class="col-2">4&#176;</div>
+          <div class="col-2">2&#176;</div>
+          <div class="col-2">3&#176;</div>
+          <div class="col-2">4&#176;</div>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

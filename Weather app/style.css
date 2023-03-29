@@ -1,0 +1,40 @@
+.search-form {
+  margin-top: 30px;
+}
+
+#city-input {
+  border-color: #006ec5;
+}
+.heading {
+  color: #006ec5;
+  font-size: 60px;
+  font-weight: bold;
+}
+.additional {
+  font-size: 30px;
+  color: #5a6275;
+}
+.extra {
+  font-size: 30px;
+  color: #5a6275;
+}
+.days {
+  color: #006ec5;
+  font-size: 35px;
+  font-weight: 400;
+  column-width: 100px;
+}
+.degree {
+  font-size: 35px;
+  font-weight: 500;
+  column-width: 50px;
+}
+.paddingBetweenCols {
+  padding-right: 130px;
+}
+.location-temp {
+  width: 200px;
+  margin-left: -5px;
+  background-color: #006ec5;
+  color: white;
+}
